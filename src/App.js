@@ -6,8 +6,8 @@ import './weather-icons/css/weather-icons.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Weather from "./app_component/weather.component";
 import Form from './app_component/form.component';
-
-const API_key="0ae71e8823b58fd2fce5179a4632cbe5";
+//It is not a orinal key, API key shouldn't be uploaded in public
+const API_key="keyFromOpenweathermap.org";
 
 class App extends React.Component{
   constructor(){
